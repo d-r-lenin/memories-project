@@ -1,0 +1,13 @@
+GET http://localhost:5000/posts
+
+###
+POST http://localhost:5000/posts HTTP/1.1
+content-type: application/json
+
+{
+    "title": "sample1",
+    "message":"sample1",
+    "creator": "sample1",
+    "tags":["tad","dgf"],
+    "selectedFile": "sample1"
+}
